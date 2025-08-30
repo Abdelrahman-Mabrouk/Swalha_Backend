@@ -58,7 +58,8 @@ public class SecurityConfig {
         // إصلاح المشاكل: إزالة المسافات والـ slashes الزائدة
         configuration.setAllowedOriginPatterns(Arrays.asList(
                 "http://localhost:5173",
-                "https://swalha.netlify.app"
+                "https://swalha.netlify.app",
+                "https://swalha-7a937.web.app"
         ));
 
         configuration.setAllowedMethods(Arrays.asList(

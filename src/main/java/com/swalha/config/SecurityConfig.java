@@ -57,10 +57,8 @@ public class SecurityConfig {
 
         // إصلاح المشاكل: إزالة المسافات والـ slashes الزائدة
         configuration.setAllowedOriginPatterns(Arrays.asList(
-                "http://192.168.1.2:5173",
                 "http://localhost:5173",
-                "http://127.0.0.1:5173",
-                "http://192.168.1.*:5173" // للسماح بأي IP في نفس الـ subnet
+                "https://swalha.netlify.app"
         ));
 
         configuration.setAllowedMethods(Arrays.asList(
